@@ -1,0 +1,269 @@
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 2rem;
+}
+
+.hero-container::after,
+.hero-container::before {
+  content: "";
+  width: 28.125rem;
+  height: 28.125rem;
+  border-radius: 20.125rem;
+  background: #3219a0;
+  position: absolute;
+  z-index: -1;
+  filter: blur(225px);
+}
+
+.hero-container::after {
+  top: -3rem;
+  left: -3rem;
+}
+
+.hero-container::before {
+  bottom: 2rem;
+  right: 0rem;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1{
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 5rem;
+  margin-bottom: 0.5rem;
+color: #e062d0;
+font-family: Ostrich Sans;
+}
+
+.hero-content h2 {
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+  color: #e062d0;
+  animation: typing-text 4s steps(40);
+  overflow: hidden;
+  text-wrap: nowrap;
+  font-family: Ostrich Sans;
+
+
+}
+
+@keyframes typing-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
+.hero-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 5rem;
+  margin-bottom: 0.5rem;
+color: #9ef4dd;
+font-family: Ostrich Sans;
+}
+
+.hero-content p {
+  width: 80%;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: justify;
+color: #9ef4dd;
+font-family: Ostrich Sans;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.hero-img > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.tech-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6852ba;
+}
+
+.tech-icon img {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.3s ease;
+  border-radius: 0.65rem;
+}
+
+
+.tech-icon2 img {
+  width: 3rem;
+  height: 3rem;
+  transition: all 0.3s ease;
+  border-radius: 0.65rem;
+  
+}
+
+
+
+
+.hero-img > div > img:hover,
+.tech-icon img:hover {
+  transform: translateY(-0.7rem);
+}
+
+.hero-img .sri {
+  width: 100%; /* Ensures the image scales with the container */
+  max-width: 25rem; /* Limits the maximum width */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1025px) {
+  .hero-content h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+
+  .tech-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .tech-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all 0.3s ease;
+    border-radius: 0.65rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-img {
+    margin: 2rem 0;
+  }
+
+  .hero-content h2,
+  .hero-content h1,
+  .hero-content h3,
+  .hero-content p {
+    width: auto;
+    text-align: center;
+  }
+
+  .hero-container::after,
+  .hero-container::before {
+    content: "";
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .hero-container::after {
+    top: 0rem;
+    left: 0rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-content p {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+
+  .hero-content h2 ,
+  .hero-content h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    
+  }
+  
+
+  .hero-img {
+    gap: 1rem;
+    padding-right: 20px;
+  }
+
+  .hero-img > div {
+    gap: 1rem;
+  }
+
+  .hero-img > div > img {
+    width: 16rem;
+  }
+
+  .tech-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .tech-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all 0.3s ease;
+    border-radius: 0.65rem;
+  }
+}
+
+@media (max-width: 450px) {
+  
+
+  .hero-img {
+    gap: 1rem;
+    padding-right: 40px;
+  }
+
+  .hero-img > div {
+    gap: 1rem;
+  }
+
+  .hero-img > div > img {
+    width: 16rem;
+  }
+
+  .tech-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .tech-icon img {
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all 0.3s ease;
+    border-radius: 0.65rem;
+  }
+}
+

@@ -1,0 +1,115 @@
+.project-card {
+    background: #150125;
+    border-radius: 0.6rem;
+    border: 1.5px solid #170c63;
+    padding: 1.5rem;
+    margin: 0 1 rem;
+   
+    width: 600px;
+    /* Fixed width for consistency */
+    height: 400px;
+    /* Fixed height for consistency */
+}
+
+.project-card h6 {
+    font-size: 1.45rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+    font-family:  Calendas Plus;
+
+}
+
+.project-duration {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    background: #67025a;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+    font-family:  Calendas Plus;
+}
+
+.project-card ul {
+    text-align: justify;
+    font-family:  Calendas Plus;
+}
+.project-card ul li {
+    list-style: none;
+    font-size: 1.0rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    font-family:  Calendas Plus;
+    position: relative;
+    display: block; /* Change from inline-block to block */
+}
+
+.project-card ul li::after {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #5a0571;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: -1.3rem;
+    top: 0.35rem;
+}
+
+@media (max-width: 1025px) {
+
+    /* Adjust styles for tablets and smaller desktop screens */
+    .project-card {
+        width: auto;
+        /* Allow cards to fill the screen width */
+        height: auto;
+        /* Allow cards to expand vertically */
+
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 786px) {
+
+    /* Adjust styles for smaller smartphones */
+    .project-card {
+        width: auto;
+        /* Allow cards to fill the screen width */
+        height: auto;
+        /* Allow cards to expand vertically */
+        padding: 1rem;
+        border-radius: 0.6rem;
+        justify-content: center;
+        border: 1.5px solid #170c63;
+        
+    }
+
+    .project-card h6 {
+        font-size: 1rem;
+    }
+
+    .project-card ul li {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 456px) {
+
+    /* Adjust styles for smaller smartphones */
+    .project-card {
+        width: auto;
+        /* Allow cards to fill the screen width */
+        height: auto;
+        /* Allow cards to expand vertically */
+        padding: 1rem;
+    }
+
+    .project-card h6 {
+        font-size: 1rem;
+    }
+
+    .project-card ul li {
+        font-size: 0.8rem;
+    }
+}

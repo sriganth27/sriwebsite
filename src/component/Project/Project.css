@@ -1,0 +1,126 @@
+.project-container {
+    margin: 4rem 0;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.project-container::after,
+.project-container::before {
+  content: "";
+  width: 28.125rem;
+  height: 28.125rem;
+  border-radius: 20.125rem;
+
+  background: #150364;
+  position: absolute;
+  z-index: -1;
+  filter: blur(200px);
+}
+
+.project-container::after {
+  top: -3rem;
+  left: -5rem;
+
+}
+
+.project-container::before {
+  bottom:0rem;
+  right: 0rem;
+
+}
+
+.project-container h5 {
+    font-size: 2.5rem;
+    font-weight: 50;
+    margin-bottom: 3rem;
+    padding-left: 25px;
+    text-align: center;
+    font-family:  Calendas Plus;
+}
+.project-content{
+    padding-left: 25px;
+}
+.arrow-left,
+.arrow-right {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(12, 88, 220);
+    border-radius: 0.5rem;
+    border: 1.5px solid rgb(12, 88, 220);
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.arrow-left span ,
+.arrow-right span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.arrow-left {
+    left: -2rem;
+}
+.arrow-right {
+    right: -1rem;
+}
+
+@media (max-width: 1025px) {
+    .arrow-left{
+        left: 0rem;
+    }
+    .arrow-right {
+        right: 0rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .project-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .arrow-left {
+        left: -0rem;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .arrow-right {
+        right: -1rem;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    
+}
+@media (max-width: 458px) {
+    .project-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .project-content {
+        padding-left: 10px;
+    }
+
+    .arrow-left {
+        left: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
+    .arrow-right {
+        right: 0rem;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    
+}
