@@ -23,15 +23,16 @@ const Hero = () => {
           
             <div className='hero-img'>
                 <div>
-                    < div className='tech-icon'>
-                        <img src={java} alt="" />
-
-                    </div>
+                   
 
 
                     <img className='sri' src={sriganth} alt="" />
                 </div>
                 <div>
+                < div className='tech-icon'>
+                        <img src={java} alt="" />
+
+                    </div>
                     <div className='tech-icon'>
                         <img src={react2} alt="" />
                     </div>
