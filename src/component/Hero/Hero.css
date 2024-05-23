@@ -282,36 +282,3 @@ font-family: Ostrich Sans;
   }
 }
 
-@media (max-width: 375px) {
-
- .sri{
-    gap: 0.75rem;
-    display: flex;
-    justify-content: center;  /* Centers the content horizontally */
-    align-items: center;      /* Centers the content vertically */
-    flex-direction: column; 
-    padding-left: 25px; 
-    width: 300px; /* Arranges the children in a column */
-  }
-  .hero-img > div {
-    gap: 0.75rem;
-  }
-
-  .hero-img > div > img {
-    width: 14rem;
-  }
-
-  .tech-icon {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-
-  .tech-icon img {
-    width: 2rem;
-    height: 2rem;
-    transition: all 0.3s ease;
-    border-radius: 0.5rem;
-  }
-}
-
-
