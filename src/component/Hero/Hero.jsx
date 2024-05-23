@@ -38,12 +38,16 @@ const Hero = () => {
                         <img src={mysql} alt="" />
                     </div>
 
-                    
+                    <div className='tech-icon'>
+                        <img src={html2} alt="" />
+
+                    </div>
 
                     <div className='tech-icon'>
                         <img src={css} alt="" />
 
                     </div>
+                    
 
 
 

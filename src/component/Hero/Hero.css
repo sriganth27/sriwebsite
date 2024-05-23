@@ -245,12 +245,13 @@ font-family: Ostrich Sans;
 
   .hero-img {
     gap: 1rem;
+    padding-left: 17px;
   
   }
  
   
   .hero-img > div {
-    gap: 1rem;
+    gap: 0.5rem;
   }
 
   .hero-img > div > img {
