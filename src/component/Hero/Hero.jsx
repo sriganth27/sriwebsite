@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
           
             <div className='hero-img'>
-                <div>
+                <div className='sri'>
                    
 
 
