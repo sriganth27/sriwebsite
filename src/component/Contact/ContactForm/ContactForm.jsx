@@ -28,11 +28,11 @@ function ContactForm() {
     <div className='contact-form-content'>
         <form ref={form} onSubmit={sendEmail}>
             <div className="name-container">
-            <input type='text' name='from_name' placeholder='Name' />
+            <input type='text' name='from_name' placeholder='Name' required/>
            
             </div>
-            <input type='email' name='from_email' placeholder='Email' />
-            <textarea type='text' name='message' placeholder='Message' rows={3} />
+            <input type='email' name='from_email' placeholder='Email' required/>
+            <textarea type='text' name='message' placeholder='Message' rows={3} required/>
             <button type='submit'>Send</button>
         </form>
      

@@ -10,7 +10,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
           
           <ul>
             <li>
-              <Link to="./hero" className='menu-item' >Home</Link>
+              <Link to="./" className='menu-item' >Home</Link>
             </li>
 
             <li>

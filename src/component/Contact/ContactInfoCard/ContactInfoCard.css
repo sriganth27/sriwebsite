@@ -28,7 +28,17 @@
 }
 
 .contact-details-card p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 400;
     font-family:  Calendas Plus;
+}
+
+@media (max-width: 458px) {
+   
+
+    .contact-details-card p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        font-family:  Calendas Plus;
+    }
 }

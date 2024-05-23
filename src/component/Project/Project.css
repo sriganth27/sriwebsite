@@ -32,11 +32,12 @@
 
 .project-container h5 {
     font-size: 2.5rem;
-    font-weight: 50;
+    font-weight: 600;
     margin-bottom: 3rem;
     padding-left: 25px;
     text-align: center;
     font-family:  Calendas Plus;
+   
 }
 .project-content{
     padding-left: 25px;
@@ -117,7 +118,7 @@
         height: 2rem;
     }
     .arrow-right {
-        right: 0rem;
+        right: 0.4rem;
         width: 2rem;
         height: 2rem;
     }

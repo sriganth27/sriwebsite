@@ -2,12 +2,13 @@ import React from 'react'
 import sriganth from './sri3.jpg'
 //import sriganth from './sriganth.jpg'
 
-import java from '../img/java.png'
+import java from '../img/java-icon.jpg'
 import html2 from '../img/html2.png'
 import react2 from '../img/react2.png'
 import js from '../img/jss.png'
 import css from '../img/csss.png'
 import mysql from '../img/mysql.png'
+
 import './Hero.css'
 const Hero = () => {
     return (

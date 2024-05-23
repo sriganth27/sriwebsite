@@ -141,6 +141,7 @@ font-family: Ostrich Sans;
   border-radius: 5%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 2px solid rgba(0, 0, 0, 0.1);
+
 }
 
 @media (max-width: 1025px) {
@@ -246,7 +247,10 @@ font-family: Ostrich Sans;
     gap: 1rem;
     padding-right: 40px;
   }
-
+  .hero-img .sri {
+  padding-right: 10px;
+  }
+  
   .hero-img > div {
     gap: 1rem;
   }

@@ -5,22 +5,22 @@ export const SKILLS = [
         title: "Frontend",
         icon: "../assets/front-end-logo.png",
         skills: [
-            { skills: "HTML5" , percentage: "90%"},
-            { skills: "CSS" , percentage: "75%"},
-            { skills: "Bootstrap" , percentage: "90%"},
+            { skills: "HTML5" , percentage: "96%"},
+            { skills: "CSS" , percentage: "85%"},
+            { skills: "Bootstrap" , percentage: "94%"},
             { skills: "JavaScript" , percentage: "80%"},
-            { skills: "React.js" , percentage: "75%"},
+            { skills: "React.js" , percentage: "83%"},
         ],
     },
 
     {
         title: "Backend",
-        icon: "../assets/backend2-log.png",
+        icon: "../assets/back-end-logo.png",
         skills: [
             { skills: "Java" , percentage: "90%"},
-            { skills: "JSP" , percentage: "90%"},
+            { skills: "JSP" , percentage: "93%"},
             { skills: "Servlet" , percentage: "90%"},
-            { skills: "Mysql" , percentage: "90%"},
+            { skills: "Mysql" , percentage: "92%"},
         ],
     },
 
@@ -29,9 +29,9 @@ export const SKILLS = [
         icon: "../assets/tools-logo.png",
       
         skills: [
-            { skills: "Git & GitHub" , percentage: "80%"},
+            { skills: "Git & GitHub" , percentage: "90%"},
             { skills: "Eclipse IDE" , percentage: "90%"},
-            { skills: "Visual Studio Code" , percentage: "90%"},
+            { skills: "Visual Studio Code" , percentage: "98%"},
           
         ],
     },
@@ -40,9 +40,12 @@ export const SKILLS = [
         title: "Soft Skills",
         icon: "../assets/softskills-logo.png",
         skills: [
-            { skills: "Problem Solving" , percentage: "80%"},
-            { skills: "Collaboration" , percentage: "90%"},
-            { skills: "Attention to Details" , percentage: "70%"},
+            { skills: "Problem Solving" , percentage: "85%"},
+            { skills: "Strategic Planning" , percentage: "95%"},
+            { skills: "Team Coordination" , percentage: "90%"},
+            { skills: "Efficiency Optimization" , percentage: "92%"},
+            { skills: "Detail Orientation" , percentage: "98%"},
+            { skills: "Adaptability" , percentage: "93%"},
            
         ],
     },
@@ -85,7 +88,7 @@ export const PROJECT = [
           
            "It features a modern and responsive design, ensuring optimal viewing experience across various devices and screen sizes. The use of React Router enables smooth navigation between different sections of the website without the need for page refreshes. ",
 
-           "Additionally, I have integrated various third-party libraries or components to enhance the functionality and aesthetics of the website, such as Additionally, I have integrated various third-party libraries or components to enhance the functionality and aesthetics of the website, such as React-icons , React Slick.."
+           "Additionally, I have integrated various third-party libraries or components to enhance the functionality and aesthetics of the website, such as React-icons , React Slick.."
         ],
     }, 
 
