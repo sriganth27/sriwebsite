@@ -240,12 +240,12 @@ font-family: Ostrich Sans;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   
 
   .hero-img {
     gap: 1rem;
-    padding-right: 40px;
+  
   }
  
   
