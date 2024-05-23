@@ -135,7 +135,7 @@ font-family: Ostrich Sans;
 }
 
 .hero-img .sri {
-  width: 500px; /* Ensures the image scales with the container */
+  width: 100%; /* Ensures the image scales with the container */
   max-width: 25rem; /* Limits the maximum width */
   height: auto; /* Maintains the aspect ratio */
   border-radius: 5%;
@@ -240,27 +240,14 @@ font-family: Ostrich Sans;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   
 
   .hero-img {
-    gap: 2rem;
-    padding-left: 17px;
+    gap: 1rem;
   
   }
-  .hero-img > div > img:hover,
-  .tech-icon img:hover {
-    transform: none;
-  }
-  
-  .hero-img .sri{
-    width: 350px;
-    height: auto; /* Maintains the aspect ratio */
-    border-radius: 2%;
-    
-    
-   
-  }
+ 
   
   .hero-img > div {
     gap: 1rem;
@@ -271,12 +258,12 @@ font-family: Ostrich Sans;
   }
 
   .tech-icon {
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 3rem;
+    height: 3rem;
   }
   .tech-icon img {
-    width: 2.3rem;
-    height: 2.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     transition: all 0.3s ease;
     border-radius: 0.65rem;
   }
