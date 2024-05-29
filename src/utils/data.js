@@ -20,6 +20,7 @@ export const SKILLS = [
             { skills: "Java" , percentage: "90%"},
             { skills: "JSP" , percentage: "93%"},
             { skills: "Servlet" , percentage: "90%"},
+            { skills: "Java EE" , percentage: "90%"},
             { skills: "Mysql" , percentage: "92%"},
         ],
     },
@@ -29,7 +30,7 @@ export const SKILLS = [
         icon: "../assets/tools-logo.png",
       
         skills: [
-            { skills: "Git & GitHub" , percentage: "90%"},
+            { skills: "Git & GitHub" , percentage: "92%"},
             { skills: "Eclipse IDE" , percentage: "90%"},
             { skills: "Visual Studio Code" , percentage: "98%"},
           
@@ -40,10 +41,11 @@ export const SKILLS = [
         title: "Soft Skills",
         icon: "../assets/softskills-logo.png",
         skills: [
-            { skills: "Problem Solving" , percentage: "85%"},
+            { skills: "Problem Solving" , percentage: "90%"},
+            { skills: "Consistency work" , percentage: "98%"},
             { skills: "Strategic Planning" , percentage: "95%"},
             { skills: "Team Coordination" , percentage: "90%"},
-            { skills: "Efficiency Optimization" , percentage: "92%"},
+       
             { skills: "Detail Orientation" , percentage: "98%"},
             { skills: "Adaptability" , percentage: "93%"},
            

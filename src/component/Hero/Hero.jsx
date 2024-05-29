@@ -16,8 +16,8 @@ const Hero = () => {
             <div className='hero-content'>
                 <h3>Welcome to My portfolio</h3>
                 <h1>I am Sriganth </h1>
-                <h2>Software Developer</h2>
-                <p>Passionate software developer with a strong background in creating innovative solutions and delivering high-quality code for diverse projects.</p>
+                <h2>Full Stack Developer</h2>
+                <p>As an aspiring Full Stack Developer, I bring enthusiasm for Java EE and React.js, eager to embark on impactful projects and learn collaboratively. Committed to growth and ready to contribute to dynamic environments with fresh perspectives.".</p>
                
             </div>
           

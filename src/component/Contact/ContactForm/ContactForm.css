@@ -42,9 +42,13 @@ form button {
 }
 
 form button:hover {
-    color: #380458;
+    color: #d2c1dc;
     background: transparent;
+    background-color: #000000;
+    border: 1.5px solid #310793;
+
 }
+
 
 @media (max-width: 450px){
     .name-container {

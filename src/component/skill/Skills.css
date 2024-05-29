@@ -12,6 +12,7 @@
   height: 28.125rem;
   border-radius: 20.125rem;
   background: #044363;
+ 
   position: absolute;
   z-index: -1;
   filter: blur(200px);
