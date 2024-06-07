@@ -5,7 +5,7 @@ function Footer() {
     const date = new Date()
   return (
     <div className='footer'>
-      portfolio.sri &copy; copyright {date.getFullYear()}
+      portfolio.sri &copy; {date.getFullYear()}
     </div>
   )
 }
