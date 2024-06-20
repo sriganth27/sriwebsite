@@ -156,8 +156,8 @@ margin-top: 10px;
   transition: 0.5s;
   background-size: 200% auto;
   color: rgb(139, 8, 78);
-  border-radius: 15px;
-  border: 2px solid rgb(139, 8, 78);
+  border-radius: 10px;
+  border: 1.5px solid rgb(8, 126, 139);
 
   display: inline-block;  /* Changed to inline-block for natural width */
 }
