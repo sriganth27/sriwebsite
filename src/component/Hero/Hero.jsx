@@ -16,9 +16,11 @@ const Hero = () => {
             <div className='hero-content'>
                 <h3>Welcome to My portfolio</h3>
                 <h1>I am Sriganth </h1>
-                <h2>Full Stack Developer</h2>
-                <p>As an aspiring Full Stack Developer, I bring enthusiasm for Java EE and React.js, eager to embark on impactful projects and learn collaboratively. Committed to growth and ready to contribute to dynamic environments with fresh perspectives.".</p>
-               
+                <h2>Software Developer</h2>
+                <p>As an aspiring Full Stack Developer, I bring enthusiasm for Java EE and React.js, eager to embark on impactful projects and learn collaboratively. Committed to growth and ready to contribute to dynamic environments with fresh perspectives.</p>
+                <button className='btn2'>
+                    <a href="/SriganthG_DMICE.pdf" download="Sriganth_DMICE.pdf">Resume</a>
+                </button>
             </div>
           
             <div className='hero-img'>

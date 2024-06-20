@@ -1,8 +1,8 @@
-import React from 'react'
-import './ContactForm.css'
-
+import React from 'react';
+import './ContactForm.css';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import Swal from 'sweetalert2';
 
 function ContactForm() {
   const form = useRef();
@@ -16,14 +16,27 @@ function ContactForm() {
       })
       .then(
         () => {
-          alert('SUCCESS! Your message has been sent.');
+          Swal.fire({
+            icon: 'success',
+            title: 'SUCCESS!',
+            text: 'Your message has been sent.',
+            width: '400px', // Customize width
+            heightAuto: false ,// Disable automatic height adjustment
+          });
           form.current.reset(); // Clear the form fields
         },
         (error) => {
-          alert('FAILED... ' + error.text);
+          Swal.fire({
+            icon: 'error',
+            title: 'FAILED...',
+            text: error.text,
+            width: '400px', // Customize width
+            heightAuto: false, // Disable automatic height adjustment
+          });
         },
       );
   };
+
   return (
     <div className='contact-form-content'>
         <form ref={form} onSubmit={sendEmail}>
@@ -37,7 +50,7 @@ function ContactForm() {
         </form>
      
     </div>
-  )
+  );
 }
 
-export default ContactForm
+export default ContactForm;

@@ -47,6 +47,7 @@ font-family: Ostrich Sans;
   line-height: 5rem;
   margin-bottom: 1rem;
   color: #e062d0;
+  color: #2c9e87;
   
   overflow: hidden;
   text-wrap: nowrap;
@@ -143,6 +144,46 @@ font-family: Ostrich Sans;
   border: 2px solid rgba(0, 0, 0, 0.1);
 
 }
+/* Hero.css */
+/* Hero.css */
+.btn2 {
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+margin-top: 10px;
+
+  padding: 10px 20px;  /* Reduced padding */
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(139, 8, 78);
+  border-radius: 15px;
+  border: 2px solid rgb(139, 8, 78);
+
+  display: inline-block;  /* Changed to inline-block for natural width */
+}
+
+.btn2:hover {
+  background-position: right center; /* Change the direction of the change here */
+  color: #a6065b;
+  text-decoration: none;
+}
+
+.btn2 a {
+  text-decoration: none;
+  color: #2c9e87;
+  padding: 5px 15px;  /* Reduced padding */
+  border-radius: 20px solid;
+  font-size: 14px;  /* Reduced font size */
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Ostrich Sans;
+
+}
+
+.btn2 a:hover {
+  color: #2c9e87;
+}
 
 @media (max-width: 1025px) {
   .hero-content h2 {
@@ -168,6 +209,15 @@ font-family: Ostrich Sans;
     height: 2.5rem;
     transition: all 0.3s ease;
     border-radius: 0.65rem;
+  }
+
+  .btn2 {
+    padding: 8px 16px;
+  }
+
+  .btn2 a {
+    padding: 4px 12px;
+    font-size: 13px;
   }
 }
 
@@ -198,6 +248,21 @@ font-family: Ostrich Sans;
   .hero-container::after {
     top: 0rem;
     left: 0rem;
+  }
+
+  .btn2 {
+    margin: 0 auto;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+  }
+
+  .btn2 a {
+    padding: 2px 6px;
+    font-size: 10px;
   }
 }
 
@@ -238,18 +303,45 @@ font-family: Ostrich Sans;
     transition: all 0.3s ease;
     border-radius: 0.65rem;
   }
+  .btn2 {
+    margin: 0 auto;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+  }
+
+  .btn2 a {
+    padding: 2px 6px;
+    font-size: 10px;
+  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
   
+  .btn2 {
+    margin: 0 auto;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
 
+  }
+
+  .btn2 a {
+    padding: 2px 6px;
+    font-size: 10px;
+  }
   .hero-img {
     gap: 1rem;
     padding-left: 17px;
   
   }
  
-  
+
   .hero-img > div {
     gap: 0.5rem;
   }
@@ -268,5 +360,8 @@ font-family: Ostrich Sans;
     transition: all 0.3s ease;
     border-radius: 0.65rem;
   }
+
+ 
+ 
 }
 
