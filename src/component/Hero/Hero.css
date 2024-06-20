@@ -147,7 +147,7 @@ font-family: Ostrich Sans;
 /* Hero.css */
 /* Hero.css */
 .btn2 {
-  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+ background-color: #090122;
 margin-top: 10px;
 
   padding: 10px 20px;  /* Reduced padding */
@@ -155,9 +155,9 @@ margin-top: 10px;
   text-transform: capitalize;
   transition: 0.5s;
   background-size: 200% auto;
-  color: rgb(139, 8, 78);
-  border-radius: 10px;
-  border: 1.5px solid rgb(8, 126, 139);
+
+  border-radius: 5px;
+  border: 1.5px solid rgb(161, 5, 185);
 
   display: inline-block;  /* Changed to inline-block for natural width */
 }
@@ -166,23 +166,25 @@ margin-top: 10px;
   background-position: right center; /* Change the direction of the change here */
   color: #a6065b;
   text-decoration: none;
+  border: 1.5px solid rgb(185, 5, 71);
 }
 
 .btn2 a {
   text-decoration: none;
-  color: #2c9e87;
+  color: #fff;
   padding: 5px 15px;  /* Reduced padding */
   border-radius: 20px solid;
   font-size: 14px;  /* Reduced font size */
-  font-weight: bold;
+
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Ostrich Sans;
 
 }
 
 .btn2 a:hover {
   color: #2c9e87;
+ 
 }
 
 @media (max-width: 1025px) {
@@ -198,6 +200,7 @@ margin-top: 10px;
   .hero-content p {
     font-size: 0.9rem;
     line-height: 1.6rem;
+    text-align: justify;
   }
 
   .tech-icon {
@@ -212,12 +215,16 @@ margin-top: 10px;
   }
 
   .btn2 {
-    padding: 8px 16px;
+    margin-top: 10px;
+    padding: 4px 8px;
+  
+    width: 120px;
+    height: 40px;
   }
 
   .btn2 a {
-    padding: 4px 12px;
-    font-size: 13px;
+    padding: 2px 6px;
+    font-size: 18px;
   }
 }
 
@@ -257,12 +264,13 @@ margin-top: 10px;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-
+    width: 120px;
+    height: 40px;
   }
 
   .btn2 a {
     padding: 2px 6px;
-    font-size: 10px;
+    font-size: 18px;
   }
 }
 
@@ -270,6 +278,7 @@ margin-top: 10px;
   .hero-content p {
     font-size: 0.8rem;
     line-height: 1.3rem;
+    text-align: justify;
   }
 
   .hero-content h2 ,
@@ -310,12 +319,13 @@ margin-top: 10px;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
-
+    width: 120px;
+    height: 40px;
   }
 
   .btn2 a {
     padding: 2px 6px;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -328,12 +338,17 @@ margin-top: 10px;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    width: 120px;
+    height: 40px;
+   
 
   }
-
+.hero-content p {
+  text-align: justify;
+}
   .btn2 a {
     padding: 2px 6px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .hero-img {
     gap: 1rem;
