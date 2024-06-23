@@ -147,7 +147,7 @@ font-family: Ostrich Sans;
 /* Hero.css */
 /* Hero.css */
 .btn2 {
- background-color: #090122;
+ background: linear-gradient(90deg , #380355 0% , #032455 100%);
 margin-top: 10px;
 
   padding: 10px 20px;  /* Reduced padding */
