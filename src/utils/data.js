@@ -18,10 +18,13 @@ export const SKILLS = [
         icon: "../assets/back-end-logo.png",
         skills: [
             { skills: "Java" , percentage: "90%"},
+            { skills: "Spring Boot" , percentage: "70%"},
+            { skills: "Spring Data JPA" , percentage: "70%"},
             { skills: "JSP" , percentage: "93%"},
             { skills: "Servlet" , percentage: "90%"},
             { skills: "Java EE" , percentage: "90%"},
             { skills: "Mysql" , percentage: "92%"},
+          
         ],
     },
 
@@ -67,7 +70,18 @@ export const PROJECT = [
            "Streamlined event reporting process by automating report creation with a single click, eliminating time-consuming manual Word reports and enabling easy access to specific event details, resulting in increased efficiency and effectiveness in managing college events."
         ],
     }, 
+    {
+        title: "Full Stack CRUD Application",
+        date: "july 2024",
+        description: [
+           "Frontend: Created a dynamic and responsive user interface with HTML, CSS, and React.js, ensuring an optimal user experience.",
+           "Backend: Developed using Spring Boot, employing Spring MVC, REST API, and Spring Data JPA for efficient data handling and communication.",
+           "Database: Utilized MySQL for robust data storage and management, ensuring seamless integration between the frontend and backend",
+           "Key Achievements: Delivered real-time data updates and enhanced user interactions through comprehensive full-stack development, demonstrating strong proficiency in both frontend and backend technologies",
 
+
+        ],
+    }, 
     {
         title: "Hospital Management System ",
         date: "November 2022 - February 2023",
