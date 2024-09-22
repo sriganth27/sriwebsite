@@ -20,7 +20,7 @@ const Hero = () => {
                 <h2>Software Developer</h2>
                 <p>As an aspiring Full Stack Developer, I am passionate about Java EE, Spring Boot, and React.js. I am eager to take on impactful projects and thrive in collaborative team environments. Committed to continuous learning and growth, I bring fresh perspectives and a drive for innovation to dynamic settings. Ready to contribute and make a meaningful impact.</p>
                 <button className='btn2'>
-                    <a href="/Sriganth_G_DMICE.pdf" download="Sriganth_DMICE.pdf">Download Resume</a>
+                    <a href="/Sriganth_G_DMICE.pdf" download="Sriganth_DMICE.pdf">Download CV</a>
                 </button>
             </div>
           
